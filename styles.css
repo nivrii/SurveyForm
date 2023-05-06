@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    padding:10px;
+    font-family:sans-serif;
+    background:url("blue2.jpg") fixed;
+  }
+  h1{
+    text-align:center;
+    font-size:50px;
+    margin-top:100px;
+    font-family:Tahoma;
+    color:white
+  }
+  #description{
+    text-align:center;
+    font-style:italic;
+    font-family:serif;
+    margin-top:-20px;
+    font-size:30px;
+    color: white;
+  }
+  form{
+    margin:50px auto 0 auto;
+    width:87%;
+    max-width:800px;
+    background:rgba(36,36,69,0.9);
+    padding:10px;
+    border-radius:10px;
+  }
+  .section{
+    width:80%;
+    margin:20px auto 30px auto;
+    padding:10px;
+    border-radius:10px;
+    border:1px solid #0060DF;
+    box-shadow:5px 5px 10px #0060DF;
+  }
+  .section label{
+    color:white;
+    font-size:1em;
+  }
+  .section input{
+    padding:10px;
+    border-radius:10px;
+  }
+  .first-section input,select{
+    width:90%;
+    height:50px;
+    margin:8px auto 30px auto;
+    display:block;
+  }
+  .second-section input{
+    width:40px;
+    height:20px;
+    margin:10px 0;  
+  }
+  article{
+    display:block;
+    height:30px;
+    margin:10px 0;
+  }
+  .fourth-section input{
+    height:20px;
+    width:40px;
+    margin:10px 0
+  }
+  #textarea{
+    margin:10px auto;
+    border-radius:10px;
+    font-family:sans-serif;
+    font-size: 20px;
+  }
+  .button-section{
+    width:80%;
+    margin:20px auto;
+    text-align:center;
+    padding:20px;
+  }
+  .button-section input{
+    width:100%;
+    padding:20px;
+    color:white;
+    background-color:dodgerblue;
+    border:1px solid dodgerblue;
+    border-radius:10px;
+  }
+  

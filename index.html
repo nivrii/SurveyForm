@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>registration Form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <section class="section first-section">
+        <label id="name-label">
+          Name:
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </label>
+        <label id="email-label">
+          Email:
+          <input
+            type="email"
+            id="email"
+            pattern="[a-z0-5]{8,}"
+            required
+            placeholder="Enter your email"
+          />
+        </label>
+        <label id="number-label">
+          Age(Optional):
+          <input
+            id="number"
+            type="number"
+            min="13"
+            max="120"
+            placeholder="Enter your age"
+          />
+        </label>
+        <label id="select-label">
+          Which option best describes your current role?
+          <select id="dropdown">
+            <option value="">Select Current Role</option>
+            <option value="1" name="role">Student</option>
+            <option value="2" name="role">Full Time Job</option>
+            <option value="3" name="role">Full Time Learner</option>
+            <option value="4" name="role">Prefer Not To Say</option>
+            <option value="5" name="role">Other</option>
+          </select>
+        </label>
+      </section>
+      <section class="second-section section">
+        <label> Would you recommend freeCodeCamp to a friend? </label>
+        <article>
+          <input id="radio1" type="radio" name="radio" value="1" checked />
+          <label for="radio1">Definitely</label>
+        </article>
+        <article>
+          <input id="radio2" type="radio" name="radio" value="2" />
+          <label for="radio2"> Maybe</label>
+        </article>
+        <article>
+          <input id="radio3"" type="radio" name="radio" value="3">
+          <label for="radio3"> Not sure</label>
+        </article>
+      </section>
+      <section class="third-section section">
+        <label id="select-label">
+          What is your favorite feature of freeCodeCamp?</label
+        >
+        <select id="dropdown">
+          <option value="">Select an option</option>
+          <option value="1" name="role">Challenges</option>
+          <option value="2" name="role">Projects</option>
+          <option value="3" name="role">Community</option>
+          <option value="5" name="role">Open Source</option>
+        </select>
+      </section>
+
+      <section class="fourth-section section">
+        <label>
+          What would you like to see improved? <br />(Check all that
+          apply)</label
+        >
+        <article>
+          <input id="check1" type="checkbox" value="1" />
+          <label for="check1">Front-end projects</label>
+        </article>
+        <article>
+          <input id="check2" type="checkbox" value="2" />
+          <label for="check2">Back-end Projects</label>
+        </article>
+        <article>
+          <input id="check3" type="checkbox" value="3" />
+          <label for="check3">Data Visualization</label>
+        </article>
+        <article>
+          <input id="check4" type="checkbox" value="4" />
+          <label for="check4">Open Source Community</label>
+        </article>
+        <article>
+          <input id="check5" type="checkbox" value="5" />
+          <label for="check5">Gitter Help Rooms</label>
+        </article>
+        <article>
+          <input id="check6" type="checkbox" value="6" />
+          <label for="check6">Videos</label>
+        </article>
+        <article>
+          <input id="check7" type="checkbox" value="7" />
+          <label for="check7">City Meetups</label>
+        </article>
+        <article>
+          <input id="check8" type="checkbox" value="8" />
+          <label for="check8">Wiki</label>
+        </article>
+        <article>
+          <input id="check9" type="checkbox" value="9" />
+          <label for="check9">Forum</label>
+        </article>
+        <article>
+          <input id="check10" type="checkbox" value="10" />
+          <label for="check10">Challenges</label>
+        </article>
+        <article>
+          <input id="check11" type="checkbox" value="11" />
+          <label for="check11">Additional Courses</label>
+        </article>
+      </section>
+
+      <section class="fifth-section section">
+        <label for="textarea">Any comments or suggestions?</label>
+        <textarea
+          id="textarea"
+          placeholder="Enter your comment here..."
+          rows="3"
+          cols="50"
+        >
+        </textarea>
+      </section>
+      <section class="button-section">
+        <input type="submit" value="SUBMIT" id="submit" />
+    </section>
+    </form>
+  </body>
+</html>
